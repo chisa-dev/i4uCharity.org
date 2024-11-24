@@ -1,8 +1,8 @@
 'use client'
+import CounterUp from "@/components/elements/CounterUp"
 import Link from "next/link"
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
-import CounterUp from "@/components/elements/CounterUp"
 
 
 
@@ -22,7 +22,7 @@ export default function About() {
                                 <div className="section-title__tagline-box">
                                     <span className="section-title__tagline">About Us</span>
                                 </div>
-                                <h2 className="section-title__title title-animation">Help us lend a <br/>helping hand</h2>
+                                <h2 className="section-title__title title-animation">Caring Hearts,<br/> Sharing Hands</h2>
                             </div>
                             <div className="text">
                                 <p>Helped fund 24,537 Projects in 24 Countries, Benefiting over 8.2 Million people.</p>
@@ -51,22 +51,17 @@ export default function About() {
                     <div className="col-xl-8">
                         <div className="about-four__right">
                             <div className="text1">
-                                <p>As we continue our efforts to make a difference in our community, we are reaching out
-                                    to compassionate individuals like you who understand the importance of giving back.
+                                <p>
+                                We are a dedicated nonprofit group formed within the Christian Students Fellowship at Addis Ababa Science and Technology University (AASTU). Our mission is to share the love of Christ with the world by reaching out to those in need and uniting individuals who are passionate about making a meaningful impact.
+
                                 </p>
                             </div>
                             <div className="text2">
                                 <p>
-                                    Together, we can create lasting change and bring hope to those who need it most. If
-                                    you have any questions or would like to discuss our mission further, please do not
-                                    hesitate to reach out.
+                                 
+Guided by the life, teachings, and character of Jesus, we are committed to demonstrating His love through compassionate actions, respect for communities, and unwavering faith. Together, we aim to be a source of hope, healing, and transformation, creating lasting change in the lives of those we serve. 
                                 </p>
-                                <p>
-                                    Please let me know the best way to proceed with my donation, and if there are any
-                                    specific projects that could benefit from additional support. I would also
-                                    appreciate any updates on your current programs, as it would be wonderful to see
-                                    firsthand the impact of our collective efforts.
-                                </p>
+                              
                             </div>
 
 
