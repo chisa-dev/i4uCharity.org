@@ -1,0 +1,120 @@
+/*--------------------------------------------------------------
+# Page Header
+--------------------------------------------------------------*/
+.page-header {
+    position: relative;
+    display: block;
+    padding: 175px 0 168px;
+    background-color: var(--anity-black);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.page-header__shape-1 {
+    position: absolute;
+    left: 200px;
+    bottom: 220px;
+    opacity: .50;
+    z-index: -1;
+}
+
+.page-header__shape-1 img {
+    width: auto;
+    filter: drop-shadow(2px 4px 6px black);
+    opacity: 0.60;
+}
+
+.page-header__shape-2 {
+    position: absolute;
+    right: 180px;
+    bottom: 90px;
+    opacity: .50;
+    z-index: -1;
+}
+
+.page-header__shape-2 img {
+    width: auto;
+}
+
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--anity-black);
+    background-blend-mode: luminosity;
+    z-index: -1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.page-header__inner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--anity-white);
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.thm-breadcrumb__box {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.thm-breadcrumb {
+    position: relative;
+    display: inline-block;
+}
+
+.thm-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--anity-white);
+    text-transform: capitalize;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li span {
+    position: relative;
+    margin-left: 14px;
+    color: var(--anity-extra);
+    margin-right: 14px;
+}
+
+.thm-breadcrumb li a {
+    position: relative;
+    display: inline-block;
+    color: var(--anity-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li:hover a {
+    color: var(--anity-extra);
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

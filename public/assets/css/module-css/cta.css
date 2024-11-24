@@ -1,0 +1,195 @@
+/*==============================================
+    CTA One
+===============================================*/
+.cta-one {
+    position: relative;
+    display: block;
+    background-color: var(--anity-base);
+    padding: 136px 0 140px;
+    z-index: 1;
+}
+
+.cta-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .20;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.cta-one__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.cta-one__title-box {
+    position: relative;
+    display: block;
+}
+
+.cta-one__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--anity-white);
+}
+
+.cta-one__btn-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 42px;
+}
+
+
+
+/*--------------------------------------------------------------
+# CTA Two
+--------------------------------------------------------------*/
+.cta-two {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.cta-two__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: #121212;
+    border-radius: 37px;
+    padding: 146px 0 146px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cta-two__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.cta-two__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--anity-white);
+}
+
+.cta-two__btn-box {
+    position: relative;
+    display: block;
+    margin-top: 49px;
+}
+
+/*--------------------------------------------------------------
+# CTA Three
+--------------------------------------------------------------*/
+.cta-three {
+    position: relative;
+    display: block;
+    background-image: -ms-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+    background-image: -moz-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+    background-image: -o-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5528), color-stop(100, #ffa415));
+    background-image: -webkit-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+    background-image: linear-gradient(to right, #ff5528 0%, #ffa415 100%);
+    padding: 68px 0px 61px;
+}
+
+
+.cta-three__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-three__content .left-box {
+    position: relative;
+    display: block;
+}
+
+.cta-three__content .left-box .title {
+    position: relative;
+    display: block;
+}
+
+.cta-three__content .left-box .title h2 {
+    color: var(--anity-white);
+    font-size: 42px;
+    line-height: 1.1em;
+    font-weight: 900;
+}
+
+.cta-three__content .left-box .text {
+    position: relative;
+    display: block;
+    padding-top: 14px;
+}
+
+.cta-three__content .left-box .text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.cta-three__content .right-box {
+    position: relative;
+    display: block;
+}
+
+.cta-three__content .right-box .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+
+.cta-three__content .right-box .btn-box .thm-btn {
+    color: var(--anity-base);
+    background-color: var(--anity-white);
+    border: 1px solid var(--anity-white);
+}
+
+.cta-three__content .right-box .btn-box .thm-btn:hover {
+    color: var(--anity-white);
+    border-color: var(--anity-black);
+}
+
+.cta-three__content .right-box .btn-box .thm-btn::after {
+    background-color: var(--anity-black);
+}
+
+.cta-three__content .right-box .btn-box .thm-btn:hover span {
+    background-color: var(--anity-base);
+    color: var(--anity-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,197 @@
+.dark-version .welcome-one,
+.dark-version .page-wrapper,
+.dark-version .about-One__shape-1,
+.dark-version .who-we-are__progress .bar,
+.dark-version .country-one__single {
+    background-color: var(--anity-black);
+}
+
+.dark-version .main-slider__bg,
+.dark-version .found-one__bg,
+.dark-version .found-one__progress .bar,
+.dark-version .who-we-are,
+.dark-version .event-one__single,
+.dark-version .country-one {
+    background-color: #2e2e2e;
+}
+
+.dark-version .main-menu .main-menu__list>li>a,
+.dark-version .stricky-header .main-menu__list>li>a,
+.dark-version .main-menu .main-menu__list>li.dropdown>a:after,
+.dark-version .main-menu__call-number a,
+.dark-version .main-slider__title,
+.dark-version .section-title__title,
+.dark-version .about-One__tab-box .tab-buttons .tab-btn span,
+.dark-version .found-one__title a,
+.dark-version .event-one__title a,
+.dark-version .event-one__location,
+.dark-version .testimonial-one__client-name a,
+.dark-version .blog-one__title a,
+.dark-version .country-one__top-title,
+.dark-version .country-one__title a {
+    color: var(--anity-white);
+}
+
+.dark-version .main-slider__text,
+.dark-version .about-One__tab-box .tabs-content__inner p,
+.dark-version .found-one__raised p,
+.dark-version .found-one__raised span,
+.dark-version .found-one__text,
+.dark-version .who-we-are__text,
+.dark-version .who-we-are__progress-single p,
+.dark-version .event-one__text,
+.dark-version .testimonial-one__text,
+.dark-version .testimonial-one__client-sub-title {
+    color: #ababab;
+}
+
+.dark-version .main-menu .main-menu__list>li.current>a::after,
+.dark-version .main-menu .main-menu__list>li:hover>a::after,
+.dark-version .stricky-header .main-menu__list>li.current>a::after,
+.dark-version .stricky-header .main-menu__list>li:hover>a::after {
+    color: var(--anity-base);
+}
+
+.dark-version .stricky-header.main-menu {
+    background-color: var(--anity-black);
+}
+
+.dark-version .main-menu__call-sub-title {
+    color: var(--anity-extra-two);
+}
+
+.dark-version .main-menu__call-icon:hover {
+    background-color: var(--anity-white);
+    color: var(--anity-black);
+}
+
+.dark-version .thm-btn {
+    color: var(--anity-white);
+    border: 1px solid rgba(var(--anity-white-rgb), .10);
+}
+
+.dark-version .thm-btn:hover {
+    color: var(--anity-black);
+}
+
+.dark-version .thm-btn::after {
+    background-color: var(--anity-white);
+}
+
+.dark-version .thm-btn:hover span {
+    background-color: var(--anity-base);
+    color: var(--anity-white);
+}
+
+.dark-version .main-slider__btn {
+    border: none;
+}
+
+.dark-version .active .main-slider__shpae-1 {
+    opacity: 1;
+}
+
+.dark-version .main-slider__shpae-2 img {
+    opacity: .10;
+}
+
+.dark-version .found-one__single {
+    background-color: var(--anity-black);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
+}
+
+.dark-version .donate-one__btn {
+    color: var(--anity-white);
+    border: 1px solid var(--anity-white);
+}
+
+.dark-version .donate-one__btn span {
+    background-color: var(--anity-black);
+}
+
+.dark-version .donate-one__btn:after {
+    background-color: var(--anity-black);
+}
+
+.dark-version .who-we-are__shape-3 img,
+.dark-version .who-we-are__shape-4 img {
+    filter: grayscale(1);
+    opacity: .10;
+}
+
+.dark-version .event-one__single {
+    border: 1px solid rgba(var(--anity-white-rgb), .10);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.dark-version .testimonial-one__single {
+    background-color: #2e2e2e;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.dark-version .blog-one__single {
+    background-color: #2e2e2e;
+    border: 1px solid rgba(var(--anity-white-rgb), .10);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.dark-version .cta-one__btn-1 {
+    padding: 8px 26px 8px;
+    padding-right: 9px;
+    background-color: var(--anity-primary);
+    border: none;
+}
+
+.dark-version .cta-one__btn-1:hover {
+    border: none;
+}
+
+.dark-version .cta-one__btn-1 span {
+    background-color: var(--anity-black);
+}
+
+.dark-version .cta-one__btn-2 {
+    padding: 8px 26px 8px;
+    padding-right: 9px;
+    background-color: var(--anity-white);
+    color: var(--anity-black);
+    border: none;
+}
+
+.dark-version .cta-one__btn-2:hover {
+    border: none;
+    color: var(--anity-white);
+}
+
+.dark-version .cta-one__btn-2 span {
+    background-color: var(--anity-black);
+}
+
+.dark-version .cta-one__btn-2:after {
+    background-color: var(--anity-black);
+}
+
+
+.dark-version .site-footer__newsletter-btn {
+    padding: 8px 26px 8px;
+    padding-right: 9px;
+    background-color: var(--anity-white);
+    color: var(--anity-black);
+    border: none;
+}
+
+.dark-version .site-footer__newsletter-btn:hover {
+    border: none;
+    color: var(--anity-white);
+}
+
+.dark-version .site-footer__newsletter-btn span {
+    background-color: var(--anity-black);
+}
+
+.dark-version .site-footer__newsletter-btn:after {
+    background-color: var(--anity-black);
+}
+
+
+/* The End */

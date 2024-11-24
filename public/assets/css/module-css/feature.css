@@ -1,0 +1,223 @@
+/*==============================================
+    Feature One
+===============================================*/
+.feature-one {
+    position: relative;
+    display: block;
+    padding: 140px 0 110px;
+    z-index: 1;
+}
+
+.feature-one__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #FFDED5;
+    border-radius: var(--anity-bdr-radius);
+    padding: 59px 40px 57px;
+    margin-bottom: 30px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.feature-one__single:hover {
+    transform: translateY(-10px);
+}
+
+.feature-one__single-2 {
+    background-color: #FFEFD7;
+}
+
+.feature-one__single-3 {
+    background-color: #CEF9E8;
+}
+
+.feature-one__icon {
+    position: relative;
+    display: inline-block;
+}
+
+.feature-one__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 66px;
+    color: var(--anity-base);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.feature-one__single-3 .feature-one__icon span {
+    color: var(--anity-extra);
+}
+
+.feature-one__single:hover .feature-one__icon span {
+    transform: scale(0.9);
+}
+
+.feature-one__content {
+    position: relative;
+    display: block;
+}
+
+.feature-one__content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.feature-one__content h4 a {
+    color: var(--anity-black);
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    transition: all 500ms ease;
+}
+
+.feature-one__content h4 a:hover {
+    color: var(--anity-base);
+    background-size: 100% 1px;
+}
+
+/*--------------------------------------------------------------
+# Feature One
+--------------------------------------------------------------*/
+.feature-two {
+    position: relative;
+    display: block;
+    margin-top: -130px;
+    padding: 0 0 0px;
+    z-index: 10;
+}
+
+.feature-two__single {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background-color: #48B1BC;
+    border-radius: var(--anity-bdr-radius);
+    gap: 30px;
+    padding: 30px 30px 35px;
+    margin-bottom: 30px;
+}
+
+.feature-two__single-2 {
+    background-color: var(--anity-extra);
+}
+
+.feature-two__single-3 {
+    background-color: var(--anity-base);
+}
+
+.feature-two__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(var(--anity-white-rgb), .20);
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.feature-two__icon:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    border-radius: 50%;
+    background-color: var(--anity-black);
+    transform: scale(0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    z-index: -1;
+}
+
+.feature-two__single:hover .feature-two__icon:before {
+    transform: scaleX(1);
+}
+
+.feature-two__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 46px;
+    color: var(--anity-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
+
+.feature-two__single:hover .feature-two__icon span {
+    transform: scale(0.9);
+    color: var(--anity-white);
+}
+
+.feature-two__content {
+    position: relative;
+    display: block;
+}
+
+.feature-two__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.feature-two__title a {
+    color: var(--anity-white);
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    transition: all 500ms ease;
+}
+
+.feature-two__title a:hover {
+    color: var(--anity-black);
+    background-size: 100% 1px;
+}
+
+.feature-two__text {
+    color: var(--anity-white);
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.feature-two__read-more {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--anity-white);
+}
+
+.feature-two__read-more:hover {
+    color: var(--anity-black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,118 @@
+/*==============================================
+   Country One
+===============================================*/
+.country-one {
+    position: relative;
+    display: block;
+    background-color: var(--anity-extra-two);
+    padding: 135px 0 110px;
+    z-index: 1;
+}
+
+.country-one__top-title-box {
+    position: relative;
+    display: block;
+}
+
+.country-one__top-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+
+.country-one__top-title span {
+    color: var(--anity-primary);
+}
+
+.country-one__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--anity-white);
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    padding: 10px 10px 9px;
+    margin-bottom: 30px;
+}
+
+.country-one__img {
+    position: relative;
+    display: block;
+    max-width: 81px;
+    width: 100%;
+    z-index: 1;
+}
+
+.country-one__img:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: linear-gradient(180deg, #E20935, #16171A) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+}
+
+.country-one__img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.country-one__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.country-one__title a {
+    color: var(--anity-black);
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    transition: all 500ms ease;
+}
+
+.country-one__title a:hover {
+    color: var(--anity-base);
+    background-size: 100% 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

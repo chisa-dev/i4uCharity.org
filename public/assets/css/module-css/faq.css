@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+# Faq Page
+--------------------------------------------------------------*/
+.faq-page {
+    position: relative;
+    display: block;
+    padding: 140px 0 120px;
+}
+
+.faq-page__left {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.faq-page .faq-one-accrodion .accrodion {
+    position: relative;
+    display: block;
+    border: 1px solid rgba(var(--anity-black-rgb), .10);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-page .faq-one-accrodion .accrodion.active {
+    border: 1px solid var(--anity-base);
+}
+
+.faq-page .faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 20px 30px 20px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.faq-page .faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--anity-black);
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-page .faq-one-accrodion .accrodion.active .accrodion-title h4 {
+    color: var(--anity-black);
+}
+
+.faq-page .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 20px;
+}
+
+.faq-page .faq-one-accrodion .accrodion-title h4::before {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--anity-gray);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 21px;
+    height: 21px;
+}
+
+.faq-page .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    content: "\f068";
+    color: var(--anity-base);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-page .faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 70px;
+    display: none;
+}
+
+.faq-page .faq-one-accrodion .active .accrodion-content {
+    display: block;
+}
+
+.faq-page .faq-one-accrodion .accrodion-content p {
+    margin: 0;
+}
+
+.faq-page__right {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}

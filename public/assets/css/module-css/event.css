@@ -1,0 +1,543 @@
+/*==============================================
+    Event One
+===============================================*/
+.event-one {
+    position: relative;
+    display: block;
+    padding: 140px 0 0px;
+    z-index: 1;
+}
+
+.event-one.pdb {
+    padding-bottom: 110px;
+}
+
+.event-one__single {
+    position: relative;
+    display: block;
+    background-color: var(--anity-white);
+    border: 1px solid var(--anity-extra-two);
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 19px 19px 29px;
+}
+
+.event-one__img-box {
+    position: relative;
+    display: block;
+}
+
+.event-one__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.event-one__img::after {
+    background: rgba(var(--anity-white-rgb, 255, 255, 255), 0.3);
+    bottom: 0;
+    content: "";
+    left: 50%;
+    position: absolute;
+    right: 51%;
+    top: 0;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 400ms linear;
+}
+
+.event-one__single:hover .event-one__img::after {
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 400ms linear;
+}
+
+.event-one__img::before {
+    background: rgba(var(--anity-white-rgb, 255, 255, 255), 0.3);
+    bottom: 50%;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 51%;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 400ms linear;
+}
+
+.event-one__single:hover .event-one__img::before {
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 400ms linear;
+}
+
+.event-one__img img {
+    width: 100%;
+    border-radius: var(--anity-bdr-radius);
+    filter: grayscale(1);
+}
+
+.event-one__date {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    background-color: var(--anity-white);
+    padding: 5px 15px 5px;
+    padding-right: 52px;
+    z-index: 2;
+}
+
+.event-one__date p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: var(--anity-black);
+}
+
+.event-one__date p span {
+    color: var(--anity-extra);
+}
+
+.event-one__content {
+    position: relative;
+    display: block;
+    padding-top: 22px;
+}
+
+.event-one__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.event-one__title a {
+    color: var(--anity-black);
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    transition: all 500ms ease;
+}
+
+.event-one__title a:hover {
+    color: var(--anity-base);
+    background-size: 100% 1px;
+}
+
+.event-one__text {
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.event-one__location {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #616670;
+}
+
+.event-one__location span {
+    color: var(--anity-base);
+}
+
+.event-one__btn-box {
+    margin-top: 40px;
+}
+
+/*--------------------------------------------------------------
+# Event Details
+--------------------------------------------------------------*/
+.event-details {
+    position: relative;
+    display: block;
+    padding: 140px 0 0;
+    z-index: 1;
+}
+
+.event-details .container {
+    max-width: 800px;
+}
+
+.event-details__inner {
+    position: relative;
+    display: block;
+}
+
+.event-details__img {
+    position: relative;
+    display: block;
+}
+
+.event-details__img img {
+    width: 100%;
+    border-radius: var(--anity-bdr-radius);
+}
+
+.event-details__text-1 {
+    font-size: 18px;
+    color: var(--anity-black);
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.event-details__text-box {
+    position: relative;
+    display: block;
+    background-color: var(--anity-primary);
+    border-radius: var(--anity-bdr-radius);
+    padding: 60px 60px 60px;
+    margin-top: 38px;
+    margin-bottom: 36px;
+}
+
+.event-details__text-box p {
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--anity-black);
+}
+
+.event-details__text-4 {
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.event-details__points {
+    position: relative;
+    display: block;
+}
+
+.event-details__points li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.event-details__points li+li {
+    margin-top: 5px;
+}
+
+.event-details__points-shape {
+    position: relative;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--anity-gray);
+}
+
+.event-details__text-5 {
+    margin-top: 34px;
+    margin-bottom: 50px;
+}
+
+.event-details__events-box {
+    position: relative;
+    display: block;
+    padding: 0 0 110px;
+    z-index: 1;
+}
+
+.event-details__events-box .row {
+    --bs-gutter-x: 20px;
+}
+
+.event-details__event-single {
+    position: relative;
+    display: block;
+    background-color: var(--anity-base);
+    border-radius: var(--anity-bdr-radius);
+    padding: 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+.event-details__event-single h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: var(--anity-white);
+    margin-bottom: 5px;
+}
+
+.event-details__event-list {
+    position: relative;
+    display: block;
+}
+
+.event-details__event-list li {
+    position: relative;
+    display: block;
+}
+
+.event-details__event-list li p {
+    color: var(--anity-white);
+}
+
+.event-details__event-list li p span {
+    font-weight: 700;
+    color: var(--anity-white);
+    position: relative;
+    margin-right: 10px;
+}
+
+.event-details__event-list li p a {
+    color: var(--anity-white);
+}
+
+.event-details__event-list li p a:hover {
+    color: var(--anity-black);
+}
+
+/*==============================================
+   Two Section
+===============================================*/
+.additional-event {
+    position: relative;
+    display: block;
+}
+
+.additional-event__wrapper {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.additional-event__left {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: var(--anity-base);
+    z-index: 1;
+}
+
+.additional-event__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .09;
+    z-index: -1;
+}
+
+.additional-event__content-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 122px 0 115px;
+}
+
+.additional-event__sub-title {
+    font-size: 20px;
+    color: var(--anity-white);
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.additional-event__title {
+    color: var(--anity-white);
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 25px 0 0px;
+}
+
+.additional-event__right {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+    background-color: var(--anity-black);
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------
+# Event List
+--------------------------------------------------------------*/
+.events-list {
+    position: relative;
+    display: block;
+    padding: 140px 0 110px;
+    z-index: 1;
+}
+
+.events-list__inner {
+    position: relative;
+    display: block;
+}
+
+.events-list__single-and-date {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.events-list__single {
+    position: relative;
+    display: flex;
+    background-color: var(--anity-white);
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: var(--anity-bdr-radius);
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.events-list__img {
+    position: relative;
+    display: block;
+    max-width: 245px;
+    width: 100%;
+}
+
+.events-list__img img {
+    width: 100%;
+    border-radius: var(--anity-bdr-radius);
+}
+
+.events-list__content {
+    position: relative;
+    display: block;
+}
+
+.events-list__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+.events-list__title a {
+    color: var(--anity-black);
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    transition: all 500ms ease;
+}
+
+.events-list__title a:hover {
+    color: var(--anity-base);
+    background-size: 100% 1px;
+}
+
+.events-list__text {
+    margin-bottom: 17px;
+    margin-top: 7px;
+}
+
+.events-list__date {
+    position: relative;
+    display: block;
+}
+
+.events-list__date li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.events-list__date li+li {
+    margin-top: 2px;
+}
+
+.events-list__date li .icon {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+}
+
+.events-list__date li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--anity-base);
+}
+
+.events-list__date li p span {
+    color: var(--anity-black);
+    font-weight: 600;
+}
+
+.events-list__date-box {
+    position: relative;
+    display: flex;
+    background-color: var(--anity-primary);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100px;
+    height: 120px;
+}
+
+.events-list__date-box p {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: var(--anity-font-two);
+    color: var(--anity-white);
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.events-list__date-box p span {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+/*--------------------------------------------------------------
+# Events Page
+--------------------------------------------------------------*/
+.events-page {
+    position: relative;
+    display: block;
+    padding: 140px 0 110px;
+    z-index: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Events Carousel Page
+--------------------------------------------------------------*/
+.events-carousel-page {
+    position: relative;
+    display: block;
+    padding: 140px 0 190px;
+}
+
+.events-carousel-page .event-one__single {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/

@@ -1,0 +1,114 @@
+/*==============================================
+    Video One
+===============================================*/
+.video-one {
+    position: relative;
+    display: block;
+    margin-top: -193px;
+    z-index: 2;
+}
+
+.video-one__inner {
+    position: relative;
+    display: block;
+    padding: 170px 0 170px;
+    border-radius: var(--anity-bdr-radius);
+    z-index: 1;
+}
+
+.video-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--anity-bdr-radius);
+    z-index: -1;
+}
+
+.video-one__video-link {
+    position: relative;
+    display: block;
+}
+
+.video-one__video-icon {
+    height: 110px;
+    width: 110px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid rgba(var(--anity-primary-rgb), .40);
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.video-one__video-icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 65px;
+    color: var(--anity-white);
+    transition: all 0.5s ease;
+}
+
+.video-one__video-icon:before {
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    right: -18px;
+    bottom: -18px;
+    content: "";
+    border-radius: 50%;
+    border: 1px solid rgba(var(--anity-primary-rgb), .50);
+    z-index: -1;
+}
+
+.video-one__video-link .ripple,
+.video-one__video-icon .ripple:before,
+.video-one__video-icon .ripple:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 126px;
+    height: 126px;
+    transform: translate(-50%, -50%);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--anity-white-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--anity-white-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--anity-white-rgb), 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    border-radius: 50%;
+}
+
+.video-one__video-icon .ripple:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    content: "";
+    position: absolute;
+}
+
+.video-one__video-icon .ripple:after {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    content: "";
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# End
+--------------------------------------------------------------*/
