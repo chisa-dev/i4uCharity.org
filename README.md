@@ -10,6 +10,47 @@ The **I For U Charity Website** is a nonprofit initiative developed by the Chris
 
 ---
 
+## ▶️ How to Run the Project
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/gemechis-elias/i4uCharity.org.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```
+   cd i4uCharity.org
+   ```
+
+3. **Install Dependencies**:
+   Ensure you have **Node.js v18.16.1** or later installed. Then run:
+   ```
+   npm install
+   ```
+
+4. **Run the Development Server**:
+   Start the development server locally:
+   ```
+   npm run dev
+   ```
+
+   The website will be available at `http://localhost:3000`.
+
+5. **Build for Production**:
+   To create an optimized build for production:
+   ```
+   npm run build
+   ```
+
+6. **Start the Production Server**:
+   After building, serve the application:
+   ```
+   npm run start
+   ```
+
+---
 
 ## 👥 Contribution Guidelines
 
