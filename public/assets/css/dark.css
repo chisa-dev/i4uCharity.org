@@ -3,7 +3,7 @@
 .dark-version .about-One__shape-1,
 .dark-version .who-we-are__progress .bar,
 .dark-version .country-one__single {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .main-slider__bg,
@@ -29,7 +29,7 @@
 .dark-version .blog-one__title a,
 .dark-version .country-one__top-title,
 .dark-version .country-one__title a {
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .dark-version .main-slider__text,
@@ -49,38 +49,38 @@
 .dark-version .main-menu .main-menu__list>li:hover>a::after,
 .dark-version .stricky-header .main-menu__list>li.current>a::after,
 .dark-version .stricky-header .main-menu__list>li:hover>a::after {
-    color: var(--anity-base);
+    color: var(--iforu-base);
 }
 
 .dark-version .stricky-header.main-menu {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .main-menu__call-sub-title {
-    color: var(--anity-extra-two);
+    color: var(--iforu-extra-two);
 }
 
 .dark-version .main-menu__call-icon:hover {
-    background-color: var(--anity-white);
-    color: var(--anity-black);
+    background-color: var(--iforu-white);
+    color: var(--iforu-black);
 }
 
 .dark-version .thm-btn {
-    color: var(--anity-white);
-    border: 1px solid rgba(var(--anity-white-rgb), .10);
+    color: var(--iforu-white);
+    border: 1px solid rgba(var(--iforu-white-rgb), .10);
 }
 
 .dark-version .thm-btn:hover {
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 .dark-version .thm-btn::after {
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
 }
 
 .dark-version .thm-btn:hover span {
-    background-color: var(--anity-base);
-    color: var(--anity-white);
+    background-color: var(--iforu-base);
+    color: var(--iforu-white);
 }
 
 .dark-version .main-slider__btn {
@@ -96,21 +96,21 @@
 }
 
 .dark-version .found-one__single {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.03);
 }
 
 .dark-version .donate-one__btn {
-    color: var(--anity-white);
-    border: 1px solid var(--anity-white);
+    color: var(--iforu-white);
+    border: 1px solid var(--iforu-white);
 }
 
 .dark-version .donate-one__btn span {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .donate-one__btn:after {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .who-we-are__shape-3 img,
@@ -120,7 +120,7 @@
 }
 
 .dark-version .event-one__single {
-    border: 1px solid rgba(var(--anity-white-rgb), .10);
+    border: 1px solid rgba(var(--iforu-white-rgb), .10);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -131,14 +131,14 @@
 
 .dark-version .blog-one__single {
     background-color: #2e2e2e;
-    border: 1px solid rgba(var(--anity-white-rgb), .10);
+    border: 1px solid rgba(var(--iforu-white-rgb), .10);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
 }
 
 .dark-version .cta-one__btn-1 {
     padding: 8px 26px 8px;
     padding-right: 9px;
-    background-color: var(--anity-primary);
+    background-color: var(--iforu-primary);
     border: none;
 }
 
@@ -147,50 +147,50 @@
 }
 
 .dark-version .cta-one__btn-1 span {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .cta-one__btn-2 {
     padding: 8px 26px 8px;
     padding-right: 9px;
-    background-color: var(--anity-white);
-    color: var(--anity-black);
+    background-color: var(--iforu-white);
+    color: var(--iforu-black);
     border: none;
 }
 
 .dark-version .cta-one__btn-2:hover {
     border: none;
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .dark-version .cta-one__btn-2 span {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .cta-one__btn-2:after {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 
 .dark-version .site-footer__newsletter-btn {
     padding: 8px 26px 8px;
     padding-right: 9px;
-    background-color: var(--anity-white);
-    color: var(--anity-black);
+    background-color: var(--iforu-white);
+    color: var(--iforu-black);
     border: none;
 }
 
 .dark-version .site-footer__newsletter-btn:hover {
     border: none;
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .dark-version .site-footer__newsletter-btn span {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .dark-version .site-footer__newsletter-btn:after {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 

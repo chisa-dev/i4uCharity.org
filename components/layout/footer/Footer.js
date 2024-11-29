@@ -83,7 +83,7 @@ export default function Footer() {
                             <div className="col-xl-12">
                                 <div className="site-footer-two__bottom-inner">
                                     <div className="site-footer-two__copyright">
-                                        <p className="site-footer-two__copyright-text">Copywright 2024 by <Link href="#">anity</Link>. All
+                                        <p className="site-footer-two__copyright-text">Copywright 2024 by <Link href="#">AATU ECSF</Link>. All
                                             Rights Reserved.</p>
                                     </div>
                                     <div className="site-footer-two__bottom-menu-box">

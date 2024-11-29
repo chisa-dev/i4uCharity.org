@@ -26,7 +26,7 @@
     font-size: 350px;
     line-height: 350px;
     font-weight: 500;
-    color: var(--anity-base);
+    color: var(--iforu-base);
     z-index: 2;
 }
 
@@ -34,7 +34,7 @@
     font-size: 40px;
     line-height: 49px;
     font-weight: 400;
-    color: var(--anity-black);
+    color: var(--iforu-black);
     text-transform: capitalize;
     margin-bottom: 8px;
 }
@@ -61,19 +61,19 @@
     height: 52px;
     width: 100%;
     outline: none;
-    background-color: var(--anity-extra-two);
+    background-color: var(--iforu-extra-two);
     border: 0;
     font-size: 14px;
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     font-weight: 500;
     padding-left: 50px;
     padding-right: 75px;
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
 }
 
 .error-page__form button[type="submit"] {
     background-color: transparent;
-    color: var(--anity-black);
+    color: var(--iforu-black);
     font-size: 22px;
     position: absolute;
     top: 0;

@@ -4,7 +4,7 @@
 .cta-one {
     position: relative;
     display: block;
-    background-color: var(--anity-base);
+    background-color: var(--iforu-base);
     padding: 136px 0 140px;
     z-index: 1;
 }
@@ -37,7 +37,7 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .cta-one__btn-box {
@@ -88,7 +88,7 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .cta-two__btn-box {
@@ -131,7 +131,7 @@
 }
 
 .cta-three__content .left-box .title h2 {
-    color: var(--anity-white);
+    color: var(--iforu-white);
     font-size: 42px;
     line-height: 1.1em;
     font-weight: 900;
@@ -161,23 +161,23 @@
 }
 
 .cta-three__content .right-box .btn-box .thm-btn {
-    color: var(--anity-base);
-    background-color: var(--anity-white);
-    border: 1px solid var(--anity-white);
+    color: var(--iforu-base);
+    background-color: var(--iforu-white);
+    border: 1px solid var(--iforu-white);
 }
 
 .cta-three__content .right-box .btn-box .thm-btn:hover {
-    color: var(--anity-white);
-    border-color: var(--anity-black);
+    color: var(--iforu-white);
+    border-color: var(--iforu-black);
 }
 
 .cta-three__content .right-box .btn-box .thm-btn::after {
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
 }
 
 .cta-three__content .right-box .btn-box .thm-btn:hover span {
-    background-color: var(--anity-base);
-    color: var(--anity-white);
+    background-color: var(--iforu-base);
+    color: var(--iforu-white);
 }
 
 

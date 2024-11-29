@@ -4,7 +4,7 @@
 .services-one {
     position: relative;
     display: block;
-    background-color: var(--anity-extra-two);
+    background-color: var(--iforu-extra-two);
     padding: 140px 0 293px;
     z-index: 1;
 }
@@ -57,11 +57,11 @@
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    font-family: var(--anity-font-two);
-    border-radius: var(--anity-bdr-radius);
+    font-family: var(--iforu-font-two);
+    border-radius: var(--iforu-bdr-radius);
     width: 100%;
-    color: var(--anity-black);
-    background-color: var(--anity-white);
+    color: var(--iforu-black);
+    background-color: var(--iforu-white);
     padding: 31px 30px 32px;
     cursor: pointer;
     transition: all 200ms linear;
@@ -71,7 +71,7 @@
 }
 
 .services-one__tab-box .tab-buttons .tab-btn.active-btn span {
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .services-one__tab-box .tab-buttons .tab-btn span:before {
@@ -81,7 +81,7 @@
     right: 0;
     bottom: 0;
     content: "";
-    background-color: var(--anity-base);
+    background-color: var(--iforu-base);
     background-position: top bottom;
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
@@ -144,7 +144,7 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     border-radius: 50%;
     overflow: hidden;
     z-index: 1;
@@ -158,7 +158,7 @@
     bottom: 0;
     content: "";
     border-radius: 50%;
-    background-color: var(--anity-base);
+    background-color: var(--iforu-base);
     transform: scale(0);
     transform-origin: center;
     transform-style: preserve-3d;
@@ -174,7 +174,7 @@
     position: relative;
     display: inline-block;
     font-size: 46px;
-    color: var(--anity-base);
+    color: var(--iforu-base);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -182,15 +182,15 @@
 
 .services-one__single:hover .services-one__icon span {
     transform: scale(0.9);
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .services-one__single-2 .services-one__icon span {
-    color: var(--anity-primary);
+    color: var(--iforu-primary);
 }
 
 .services-one__single-4 .services-one__icon span {
-    color: var(--anity-extra);
+    color: var(--iforu-extra);
 }
 
 .services-one__title {
@@ -202,13 +202,13 @@
 }
 
 .services-one__title a {
-    color: var(--anity-black);
+    color: var(--iforu-black);
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
 .services-one__title a:hover {
-    color: var(--anity-base);
+    color: var(--iforu-base);
     background-size: 100% 1px;
 }
 

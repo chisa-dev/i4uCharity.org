@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
                 <meta property="og:title" content={metadata.title} />
                 <meta property="og:description" content={metadata.description} />
                 <meta property="og:image" content="/assets/images/charity-og-image.jpg" />
-                <meta property="og:url" content="https://example.com" />
+                <meta property="og:url" content="https://i4ucharity.org" />
                 <meta property="og:type" content="website" />
 
                 {/* Twitter */}
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
                 <meta name="robots" content="index, follow" />
 
                 {/* Canonical URL */}
-                <link rel="canonical" href="https://example.com" />
+                <link rel="canonical" href="https://i4ucharity.org" />
 
                 {/* Title */}
                 <title>{metadata.title}</title>

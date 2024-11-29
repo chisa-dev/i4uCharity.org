@@ -4,7 +4,7 @@
 .who-we-are {
     position: relative;
     display: block;
-    background-color: var(--anity-extra-two);
+    background-color: var(--iforu-extra-two);
     padding: 140px 0 166px;
     z-index: 1;
 }
@@ -75,8 +75,8 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
-    font-family: var(--anity-font-two);
-    color: var(--anity-extra);
+    font-family: var(--iforu-font-two);
+    color: var(--iforu-extra);
     position: relative;
     margin-left: 11px;
 }
@@ -95,7 +95,7 @@
     width: 0px;
     height: 5px;
     border-radius: 0px;
-    background: var(--anity-base);
+    background: var(--iforu-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -185,7 +185,7 @@
     bottom: -48px;
     width: 166px;
     height: 166px;
-    background-color: rgba(var(--anity-primary-rgb), .50);
+    background-color: rgba(var(--iforu-primary-rgb), .50);
     border-radius: 50%;
 }
 
@@ -196,7 +196,7 @@
     right: -12px;
     bottom: -12px;
     top: -12px;
-    border: 3px solid rgba(var(--anity-primary-rgb), .50);
+    border: 3px solid rgba(var(--iforu-primary-rgb), .50);
     border-radius: 50%;
 }
 
@@ -206,7 +206,7 @@
     bottom: 139px;
     width: 166px;
     height: 166px;
-    background-color: var(--anity-primary);
+    background-color: var(--iforu-primary);
     border-radius: 50%;
     filter: blur(200px);
     z-index: 1;

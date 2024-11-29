@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     padding: 175px 0 168px;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     overflow: hidden;
     z-index: 1;
 }
@@ -46,7 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     background-blend-mode: luminosity;
     z-index: -1;
 }
@@ -61,7 +61,7 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
-    color: var(--anity-white);
+    color: var(--iforu-white);
     text-transform: uppercase;
     margin-bottom: 13px;
 }
@@ -82,7 +82,7 @@
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
-    color: var(--anity-white);
+    color: var(--iforu-white);
     text-transform: capitalize;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -91,20 +91,20 @@
 .thm-breadcrumb li span {
     position: relative;
     margin-left: 14px;
-    color: var(--anity-extra);
+    color: var(--iforu-extra);
     margin-right: 14px;
 }
 
 .thm-breadcrumb li a {
     position: relative;
     display: inline-block;
-    color: var(--anity-white);
+    color: var(--iforu-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .thm-breadcrumb li:hover a {
-    color: var(--anity-extra);
+    color: var(--iforu-extra);
 }
 
 

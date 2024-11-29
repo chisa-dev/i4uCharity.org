@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     height: 730px;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     z-index: -1;
 }
 
@@ -31,19 +31,19 @@
 }
 
 .found-one .section-title__tagline {
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .found-one .section-title__title {
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .found-one__single {
     position: relative;
     display: block;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
     text-align: center;
     padding: 20px 20px 30px;
     margin-bottom: 30px;
@@ -62,7 +62,7 @@
 
 .found-one__img img {
     width: 100%;
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
     transition: 0.5s;
 }
 
@@ -96,13 +96,13 @@
 }
 
 .found-one__title a {
-    color: var(--anity-black);
+    color: var(--iforu-black);
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
 .found-one__title a:hover {
-    color: var(--anity-base);
+    color: var(--iforu-base);
     background-size: 100% 1px;
 }
 
@@ -131,7 +131,7 @@
     width: 0px;
     height: 5px;
     border-radius: 0px;
-    background: var(--anity-extra);
+    background: var(--iforu-extra);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -148,7 +148,7 @@
 }
 
 .found-one__raised span {
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 .found-one__btn-box {

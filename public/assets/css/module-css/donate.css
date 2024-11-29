@@ -15,7 +15,7 @@
 .donate-one__single {
     position: relative;
     display: block;
-    background-color: var(--anity-base);
+    background-color: var(--iforu-base);
     border-radius: 20px;
     padding: 77px 60px 55px;
     margin-bottom: 30px;
@@ -23,7 +23,7 @@
 }
 
 .donate-one__single-2 {
-    background-color: var(--anity-extra);
+    background-color: var(--iforu-extra);
 }
 
 .donate-one__single-bg {
@@ -47,20 +47,20 @@
 }
 
 .donate-one__title a {
-    color: var(--anity-white);
+    color: var(--iforu-white);
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
 .donate-one__title a:hover {
-    color: var(--anity-black);
+    color: var(--iforu-black);
     background-size: 100% 1px;
 }
 
 .donate-one__text {
     font-size: 18px;
     line-height: 34px;
-    color: var(--anity-white);
+    color: var(--iforu-white);
     margin-top: 20px;
     margin-bottom: 38px;
 }
@@ -86,7 +86,7 @@
     left: 0;
     right: 0;
     height: 780px;
-    background-color: var(--anity-extra-two);
+    background-color: var(--iforu-extra-two);
     z-index: -1;
 }
 
@@ -126,9 +126,9 @@
 .donate-two__single {
     position: relative;
     display: block;
-    background: var(--anity-white);
+    background: var(--iforu-white);
     box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
     padding: 20px 20px 40px;
     margin-bottom: 40px;
 }
@@ -145,7 +145,7 @@
 
 .donate-two__img img {
     width: 100%;
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
 }
 
 .donate-two__img img:nth-child(2) {
@@ -179,22 +179,22 @@
 }
 
 .donate-two__title a {
-    color: var(--anity-black);
+    color: var(--iforu-black);
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
 .donate-two__title a:hover {
-    color: var(--anity-base);
+    color: var(--iforu-base);
     background-size: 100% 1px;
 }
 
 .donate-two__single-2 .donate-two__title a:hover {
-    color: var(--anity-extra);
+    color: var(--iforu-extra);
 }
 
 .donate-two__single-3 .donate-two__title a:hover {
-    color: var(--anity-primary);
+    color: var(--iforu-primary);
 }
 
 .donate-two__text {
@@ -217,7 +217,7 @@
 }
 
 .donate-two__raised span {
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 .donate-two__progress {
@@ -232,7 +232,7 @@
     position: relative;
     width: 100%;
     height: 5px;
-    background: var(--anity-extra-two);
+    background: var(--iforu-extra-two);
     border-radius: 0px;
 }
 
@@ -242,7 +242,7 @@
     width: 0px;
     height: 5px;
     border-radius: 0px;
-    background: var(--anity-base);
+    background: var(--iforu-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -251,11 +251,11 @@
 }
 
 .donate-two__single-2 .donate-two__progress .bar-inner {
-    background: var(--anity-extra);
+    background: var(--iforu-extra);
 }
 
 .donate-two__single-3 .donate-two__progress .bar-inner {
-    background: var(--anity-primary);
+    background: var(--iforu-primary);
 }
 
 .donate-two__progress .bar-inner::before {
@@ -266,17 +266,17 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: var(--anity-white);
-    border: 3px solid var(--anity-base);
+    background-color: var(--iforu-white);
+    border: 3px solid var(--iforu-base);
     transform: translateY(-50%);
 }
 
 .donate-two__single-2 .donate-two__progress .bar-inner::before {
-    border: 3px solid var(--anity-extra);
+    border: 3px solid var(--iforu-extra);
 }
 
 .donate-two__single-3 .donate-two__progress .bar-inner::before {
-    border: 3px solid var(--anity-primary);
+    border: 3px solid var(--iforu-primary);
 }
 
 /*--------------------------------------------------------------
@@ -285,7 +285,7 @@
 .donate-three {
     position: relative;
     display: block;
-    background-color: var(--anity-extra-two);
+    background-color: var(--iforu-extra-two);
     padding: 140px 0 110px;
     z-index: 1;
 }
@@ -311,9 +311,9 @@
 .donate-three__single {
     position: relative;
     display: block;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
     margin-bottom: 30px;
 }
 
@@ -325,14 +325,14 @@
 .donate-three__img {
     position: relative;
     display: block;
-    border-top-left-radius: var(--anity-bdr-radius);
-    border-top-right-radius: var(--anity-bdr-radius);
+    border-top-left-radius: var(--iforu-bdr-radius);
+    border-top-right-radius: var(--iforu-bdr-radius);
 }
 
 .donate-three__img img {
     width: 100%;
-    border-top-left-radius: var(--anity-bdr-radius);
-    border-top-right-radius: var(--anity-bdr-radius);
+    border-top-left-radius: var(--iforu-bdr-radius);
+    border-top-right-radius: var(--iforu-bdr-radius);
 }
 
 .donate-three__img img:nth-child(2) {
@@ -366,22 +366,22 @@
 }
 
 .donate-three__title a {
-    color: var(--anity-black);
+    color: var(--iforu-black);
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
 .donate-three__title a:hover {
-    color: var(--anity-base);
+    color: var(--iforu-base);
     background-size: 100% 1px;
 }
 
 .donate-three__single-2 .donate-three__title a:hover {
-    color: var(--anity-extra);
+    color: var(--iforu-extra);
 }
 
 .donate-three__single-3 .donate-three__title a:hover {
-    color: var(--anity-primary);
+    color: var(--iforu-primary);
 }
 
 .donate-three__text {
@@ -404,7 +404,7 @@
 }
 
 .donate-three__raised span {
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 .donate-three__progress {
@@ -418,7 +418,7 @@
     position: relative;
     width: 100%;
     height: 5px;
-    background: var(--anity-extra-two);
+    background: var(--iforu-extra-two);
     border-radius: 0px;
 }
 
@@ -428,7 +428,7 @@
     width: 0px;
     height: 5px;
     border-radius: 0px;
-    background: var(--anity-base);
+    background: var(--iforu-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -437,11 +437,11 @@
 }
 
 .donate-three__single-2 .donate-three__progress .bar-inner {
-    background: var(--anity-extra);
+    background: var(--iforu-extra);
 }
 
 .donate-three__single-3 .donate-three__progress .bar-inner {
-    background: var(--anity-primary);
+    background: var(--iforu-primary);
 }
 
 .donate-three__progress .bar-inner::before {
@@ -452,17 +452,17 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: var(--anity-white);
-    border: 3px solid var(--anity-base);
+    background-color: var(--iforu-white);
+    border: 3px solid var(--iforu-base);
     transform: translateY(-50%);
 }
 
 .donate-three__single-2 .donate-three__progress .bar-inner::before {
-    border: 3px solid var(--anity-extra);
+    border: 3px solid var(--iforu-extra);
 }
 
 .donate-three__single-3 .donate-three__progress .bar-inner::before {
-    border: 3px solid var(--anity-primary);
+    border: 3px solid var(--iforu-primary);
 }
 
 
@@ -506,7 +506,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     background-blend-mode: luminosity;
     z-index: -1;
 }
@@ -522,13 +522,13 @@
 .donation-one__content-box {
     position: relative;
     display: block;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     padding: 120px 0 120px;
     padding-left: 90px;
 }
 
 .donation-one__content-box .section-title-two__title {
-    color: var(--anity-white);
+    color: var(--iforu-white);
 }
 
 .donation-one__donate-box {
@@ -545,7 +545,7 @@
 }
 
 .donation-one__donate-box .donate-amount .amount-btn {
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     padding: 19px 30px 19px;
     background-color: #232425;
     transition: all 0.4s ease-in-out;
@@ -556,8 +556,8 @@
 }
 
 .donation-one__donate-box .donate-amount .amount-btn.active {
-    background-color: var(--anity-base);
-    color: var(--anity-white);
+    background-color: var(--iforu-base);
+    color: var(--iforu-white);
 }
 
 .donation-one__donate-box .donate-now {
@@ -571,7 +571,7 @@
     width: 100%;
     padding: 13px 20px 13px;
     background-color: #232425;
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     max-width: 200px;
     width: 100%;
     border: none;
@@ -614,8 +614,8 @@
 .donation-details__inner {
     position: relative;
     display: block;
-    background-color: var(--anity-extra-two);
-    border-radius: var(--anity-bdr-radius);
+    background-color: var(--iforu-extra-two);
+    border-radius: var(--iforu-bdr-radius);
     padding: 75px 110px 80px;
 }
 
@@ -668,7 +668,7 @@
 }
 
 .donation-details__quote-radio .custom-radio input[type="radio"]:checked~.radio-dot {
-    border-color: var(--anity-base);
+    border-color: var(--iforu-base);
 }
 
 .donation-details__quote-radio .custom-radio .radio-dot::after {
@@ -687,21 +687,21 @@
 
 .donation-details__quote-radio .custom-radio input[type="radio"]:checked~.radio-dot::after {
     transform: translate(-50%, -50%) scale(1);
-    background-color: var(--anity-base);
+    background-color: var(--iforu-base);
 }
 
 .donation-details__quote-radio .custom-radio .radio-text {
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
-    color: var(--anity-black);
-    font-family: var(--anity-font-two);
+    color: var(--iforu-black);
+    font-family: var(--iforu-font-two);
     position: relative;
     top: 2px;
 }
 
 .donation-details__quote-radio .custom-radio input[type="radio"]:checked~.radio-text {
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 .donation-details__personal-info {
@@ -730,7 +730,7 @@
 .donation-details__input-box-title {
     font-size: 18px;
     font-weight: 700;
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     line-height: 18px;
     margin-bottom: 27px;
 }
@@ -739,7 +739,7 @@
 .donation-details__input-box input[type="email"] {
     height: 80px;
     width: 100%;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     border: none;
     padding-left: 20px;
     padding-right: 20px;
@@ -748,8 +748,8 @@
     font-weight: 700;
     color: #dddddd;
     display: block;
-    border-radius: var(--anity-bdr-radius);
-    font-family: var(--anity-font-two);
+    border-radius: var(--iforu-bdr-radius);
+    font-family: var(--iforu-font-two);
 }
 
 .donation-details__donate-box-outer {
@@ -762,7 +762,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     text-transform: uppercase;
     position: relative;
     margin-top: 55px;
@@ -783,16 +783,16 @@
 }
 
 .donation-details__donate-box .donate-amount .amount-btn {
-    color: var(--anity-gray);
+    color: var(--iforu-gray);
     padding: 30px 30px 30px;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     transition: all 0.4s ease-in-out;
     border: none;
     font-size: 20px;
     line-height: 20px;
-    border-radius: var(--anity-bdr-radius);
+    border-radius: var(--iforu-bdr-radius);
     font-weight: 700;
-    font-family: var(--anity-font-two);
+    font-family: var(--iforu-font-two);
 }
 
 .donation-details__donate-box .donate-amount .amount-btn+.amount-btn {
@@ -800,8 +800,8 @@
 }
 
 .donation-details__donate-box .donate-amount .amount-btn.active {
-    background-color: var(--anity-base);
-    color: var(--anity-white);
+    background-color: var(--iforu-base);
+    color: var(--iforu-white);
 }
 
 .donation-details__donate-box .donate-now {
@@ -812,7 +812,7 @@
 .donation-details__donate-box .donate-now input {
     height: 80px;
     width: 100%;
-    background-color: var(--anity-white);
+    background-color: var(--iforu-white);
     border: none;
     padding-left: 20px;
     padding-right: 20px;
@@ -821,20 +821,20 @@
     font-weight: 700;
     color: #dddddd;
     display: block;
-    border-radius: var(--anity-bdr-radius);
-    font-family: var(--anity-font-two);
+    border-radius: var(--iforu-bdr-radius);
+    font-family: var(--iforu-font-two);
 }
 
 .donation-details__donate-amout {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
-    color: var(--anity-font-two);
+    color: var(--iforu-font-two);
 }
 
 .donation-details__donate-amout span {
     font-size: 20px;
-    color: var(--anity-black);
+    color: var(--iforu-black);
 }
 
 /*--------------------------------------------------------------

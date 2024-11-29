@@ -7,7 +7,7 @@ export default function Slogan() {
         <>
         {/*Slogan One Start */}
         <section className="slogan-one">
-            <div className="slogan-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="100% 100%"
+            <div className="slogan-one__bg jarallax" data-jarallax data-speed="0.3" data-imgposition="100% 100%"
                 style={{ backgroundImage: ' url(assets/images/resources/slogan-v1-1.jpg)' }} ></div>
             <div className="container">
                 <div className="slogan-one__content text-center">

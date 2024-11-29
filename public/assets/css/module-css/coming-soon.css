@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: var(--anity-black);
+    background-color: var(--iforu-black);
     background-blend-mode: luminosity;
     border-top: 40px dotted rgba(0, 0, 0, 0.5);
     border-bottom: 40px dotted rgba(0, 0, 0, 0.5);
@@ -60,10 +60,10 @@
     position: relative;
     display: inline-block;
     color: transparent;
-    color: rgba(var(--anity-white-rgb), .30);
+    color: rgba(var(--iforu-white-rgb), .30);
     font-size: 80px;
     line-height: 1.1em;
-    font-family: var(--anity-font-2);
+    font-family: var(--iforu-font-2);
     font-weight: 700;
     text-transform: uppercase;
     word-spacing: 5px;
@@ -100,7 +100,7 @@
     font-size: 55px;
     line-height: 60px;
     font-weight: 700;
-    font-family: var(--anity-font);
+    font-family: var(--iforu-font);
 }
 
 .coming-soon-page .timer-box .countdown-timer li span.timeRef {
@@ -112,7 +112,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 11px;
-    font-family: var(--anity-font);
+    font-family: var(--iforu-font);
 }
 
 .coming-soon-page__content .inner .text {
@@ -152,16 +152,16 @@
     max-width: 490px;
     width: 100%;
     height: 60px;
-    border-radius: var(--anity-bdr-radius);
-    background: var(--anity-black);
-    border: 1px solid rgba(var(--anity-white-rgb), .10) !important;
-    color: var(--anity-gray);
+    border-radius: var(--iforu-bdr-radius);
+    background: var(--iforu-black);
+    border: 1px solid rgba(var(--iforu-white-rgb), .10) !important;
+    color: var(--iforu-gray);
     font-size: 16px;
     font-weight: 400;
     padding-left: 30px;
     padding-right: 30px;
     transition: all 500ms ease 0s;
-    font-family: var(--anity-font);
+    font-family: var(--iforu-font);
     outline: none;
 }
 
