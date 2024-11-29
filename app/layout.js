@@ -1,9 +1,9 @@
 import { dmSans, libreBaskerville } from "@/lib/font";
 import "@/node_modules/react-modal-video/css/modal-video.css";
-import "public/assets/css/style.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
+import "../public/assets/css/style.css";
 
 export const metadata = {
     title: "I4U Charity Team | AASTU Christian Students Fellowship",
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
                 <meta name="twitter:card" content="summary_large_image" />
 
                 {/* Favicon */}
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="../public/favicon.ico" />
 
                 {/* Robots */}
                 <meta name="robots" content="index, follow" />

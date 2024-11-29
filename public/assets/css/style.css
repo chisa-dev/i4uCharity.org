@@ -2868,7 +2868,12 @@ ul {
   position: relative;
   display: block;
 }
-
+.slogan-one__content .qoute-box h2 {
+  color: var(--iforu-white);
+  font-size: 34px;
+  line-height: 1.3em;
+  text-transform: capitalize;
+}
 .slogan-one__content .text-box p {
   color: #c5c5c5;
   font-size: 18px;

@@ -1,7 +1,6 @@
 
 'use client'
 import { useEffect, useState } from "react"
-import BackToTop from '../elements/BackToTop'
 import DataBg from "../elements/DataBg"
 import Breadcrumb from './Breadcrumb'
 import SearchPopup from "./SearchPopup"
@@ -27,11 +26,11 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar)
 
     useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+        // const WOW = require('wowjs')
+        // window.wow = new WOW.WOW({
+        //     live: false
+        // })
+        // window.wow.init()
 
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
@@ -57,7 +56,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {!footerStyle && < Footer />}
                 {footerStyle == 3 ? < Footer /> : null}
             </div>
-            <BackToTop scroll={scroll} />
+            {/* <BackToTop scroll={scroll} /> */}
         </>
     )
 }
