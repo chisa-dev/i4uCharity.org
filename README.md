@@ -1,6 +1,6 @@
 # ✝️ I4U Charity Website
 
-![Node Version](https://img.shields.io/badge/Node-18.16.1-green) ![Next.js Version](https://img.shields.io/badge/Next.js-13.4.19-blue) ![React Version](https://img.shields.io/badge/React-18.2.0-blue)  
+![Node Version](https://img.shields.io/badge/Node-20.18.0-green) ![Next.js Version](https://img.shields.io/badge/Next.js-15.0.3-blue) ![React Version](https://img.shields.io/badge/React-18.3.1-blue)  
 
 ---
 
