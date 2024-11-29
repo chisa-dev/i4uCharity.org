@@ -1,4 +1,4 @@
-# 👨🏽‍💻 I For U Charity Website
+# ✝️ I For U Charity Website
 
 ![Node Version](https://img.shields.io/badge/Node-18.16.1-green) ![Next.js Version](https://img.shields.io/badge/Next.js-13.4.19-blue) ![React Version](https://img.shields.io/badge/React-18.2.0-blue)  
 
@@ -7,8 +7,6 @@
 ## 📜 Description
 
 The **I For U Charity Website** is a nonprofit initiative developed by the Christian Students Fellowship of Addis Ababa Science and Technology University (AASTU). Our mission is to share Christ's love by organizing charity events and fundraising to support people in need.  
-
-This website serves as a platform to reflect our motto: *"Caring Hearts, Sharing Hands"* by uniting those passionate about helping others and providing a seamless experience for donors and volunteers. Built using **Next.js**, **React**, and **SASS**, it is designed to be user-friendly, performant, and accessible to all.
 
 ---
 
