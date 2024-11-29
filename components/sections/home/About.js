@@ -75,11 +75,11 @@ Guided by the life, teachings, and character of Jesus, we are committed to demon
                                                 <span className="icon-help"></span>
                                             </div>
                                             <div className="count-box count-box">
-                                                <h2><CounterUp end={250} /></h2>
-                                                <span>k</span>
+                                                <h2><CounterUp end={6} /></h2>
+                                                <span></span>
                                             </div>
                                             <div className="title-box">
-                                                <h3>People We Helped on 2024</h3>
+                                                <h3>Families We Helped since 2021</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -91,11 +91,11 @@ Guided by the life, teachings, and character of Jesus, we are committed to demon
                                                 <span className="icon-dolor"></span>
                                             </div>
                                             <div className="count-box count-box">
-                                                <h2><CounterUp end={20} /></h2>
-                                                <span>bil</span>
+                                                <h2><CounterUp end={2} /></h2>
+                                                <span>K</span>
                                             </div>
                                             <div className="title-box">
-                                                <h3>Total Dollars We Collected</h3>
+                                                <h3>Total Clothes We Collected</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -107,11 +107,11 @@ Guided by the life, teachings, and character of Jesus, we are committed to demon
                                                 <span className="icon-support"></span>
                                             </div>
                                             <div className="count-box count-box">
-                                                <h2><CounterUp end={90} /></h2>
+                                                <h2><CounterUp end={10} /></h2>
                                                 <span className="plus">+</span>
                                             </div>
                                             <div className="title-box">
-                                                <h3>Complete in the Projects</h3>
+                                                <h3>Events Organized this year</h3>
                                             </div>
                                         </div>
                                     </div>
