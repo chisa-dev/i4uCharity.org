@@ -38,18 +38,6 @@ Follow these steps to set up and run the project locally:
 
    The website will be available at `http://localhost:3000`.
 
-5. **Build for Production**:
-   To create an optimized build for production:
-   ```
-   npm run build
-   ```
-
-6. **Start the Production Server**:
-   After building, serve the application:
-   ```
-   npm run start
-   ```
-
 ---
 
 ## 👥 Contribution Guidelines
