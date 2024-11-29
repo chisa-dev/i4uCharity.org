@@ -22,17 +22,6 @@ This website serves as a platform to reflect our motto: *"Caring Hearts, Sharing
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Node.js**: v18.16.1  
-- **Next.js**: v13.4.19  
-- **React.js**: v18.2.0  
-- **SASS**: v1.66.1  
-- **Swiper.js**: v10.2.0  
-- **FontAwesome Icons**: v6.7.1  
-
----
-
 ## 👥 Contribution Guidelines
 
 We welcome contributions to improve this project. Please follow these steps:
