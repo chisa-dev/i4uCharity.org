@@ -10,15 +10,6 @@ The **I For U Charity Website** is a nonprofit initiative developed by the Chris
 
 ---
 
-## 🚀 Key Features
-
-- **Showcase Charity Projects**: Highlight fundraising initiatives and success stories.  
-- **Donation Support**: Seamless navigation for donors to contribute.  
-- **Responsive Design**: Optimized for all devices, ensuring accessibility.  
-- **SEO Optimized**: Improved search visibility to reach a broader audience.  
-- **Social Media Integration**: Engage users and expand outreach.
-
----
 
 ## 👥 Contribution Guidelines
 
