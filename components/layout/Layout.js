@@ -1,4 +1,3 @@
-
 'use client'
 import { useEffect, useState } from "react"
 import DataBg from "../elements/DataBg"
@@ -8,7 +7,7 @@ import Sidebar from "./Sidebar"
 import Footer from "./footer/Footer"
 import Header from "./header/Header"
 
-export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
+export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, image, children, wrapperCls }) {
     const [scroll, setScroll] = useState(0)
     // Mobile Menu
     const [isMobileMenu, setMobileMenu] = useState(false)
@@ -26,12 +25,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar)
 
     useEffect(() => {
-        // const WOW = require('wowjs')
-        // window.wow = new WOW.WOW({
-        //     live: false
-        // })
-        // window.wow.init()
-
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
@@ -39,24 +32,23 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             }
         })
     }, [])
+
     return (
         <>
             <DataBg />
             <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
-              {headerStyle == 3 ? <Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
-               
+                {headerStyle == 3 ? <Header scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
 
                 <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
                 <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 
-                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
+                {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} image={image} />}
 
                 {children}
 
-                {!footerStyle && < Footer />}
-                {footerStyle == 3 ? < Footer /> : null}
+                {!footerStyle && <Footer />}
+                {footerStyle == 3 ? <Footer /> : null}
             </div>
-            {/* <BackToTop scroll={scroll} /> */}
         </>
     )
 }

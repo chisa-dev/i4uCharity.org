@@ -46,7 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--iforu-black);
+    /* background-color: var(--iforu-black); */
     background-blend-mode: luminosity;
     z-index: -1;
 }
