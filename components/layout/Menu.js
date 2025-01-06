@@ -36,7 +36,7 @@ export default function Menu() {
                 </li>
                
                 <li>
-                    <Link href="stories">Stories</Link>
+                    {/* <Link href="stories">Stories</Link> */}
                      
                 </li>
                 <li>
