@@ -12,10 +12,19 @@ export default function Donation() {
         {/*Donation One Start */}
         <section className="donation-one">
             <div className="donation-one__wrapper">
-                <div className="donation-one__left">
-                    <div className="donation-one__left-bg"
-                        style={{ backgroundImage: ' url(assets/images/backgrounds/photo_2025-01-04_11-58-35.jpg)' }} ></div>
-                </div>
+            <div className="donation-one__left">
+    <div 
+        className="donation-one__left-bg" 
+        style={{ 
+            backgroundImage: 'url(assets/images/backgrounds/photo_2025-01-04_11-58-35.jpg)', 
+            width: '960px', 
+            height: '575px',
+            backgroundSize: 'cover',  
+            backgroundPosition: 'center',  
+        }}
+    ></div>
+</div>
+
                 <div className="donation-one__right">
                     <div className="donation-one__content-box">
                         <div className="section-title-two text-left sec-title-animation animation-style2">
@@ -26,16 +35,12 @@ export default function Donation() {
                         </div>
                         <div className="donation-one__donate-box">
                             <div className="donate-amount wow fadeInUp" data-wow-delay=".5s">
-                                <button className={activeIndex == 1 ? "active amount-btn" : "amount-btn"} onClick={() => handleOnClick(1)}>$10</button>
-                                <button className={activeIndex == 2 ? "active amount-btn" : "amount-btn"} onClick={() => handleOnClick(2)}>$30</button>
-                                <button className={activeIndex == 3 ? "active amount-btn" : "amount-btn"} onClick={() => handleOnClick(3)}>$50</button>
-                                <button className={activeIndex == 4 ? "active amount-btn" : "amount-btn"} onClick={() => handleOnClick(4)}>$100</button>
-                                <button className={activeIndex == 5 ? "active amount-btn" : "amount-btn"} onClick={() => handleOnClick(5)}>$200</button>
+                              <br/>  <br/>  
                             </div>
                             <div className="donate-now wow fadeInUp" data-wow-delay=".7s">
-                                <input type="text" className="addAmount-value" placeholder="$ Costume Amount" />
+                                {/* <input type="text" className="addAmount-value" placeholder="" /> */}
                                 <div className="donation-one__btn-box">
-                                    <Link href="#" className="donation-one__btn thm-btn">Donate Now<span><i
+                                    <Link href="donate" className="donation-one__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                             </div>

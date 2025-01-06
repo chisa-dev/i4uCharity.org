@@ -58,8 +58,7 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
                                   
                                    
                                     <div className="main-menu-three__btn-box">
-                                    <Link href="/donation-details" className="main-menu-three__btn thm-btn">
-      Telegram <span><FontAwesomeIcon icon={faTelegram} /></span>
+                                    <Link href="https://t.me/i4uteam" className="main-menu-three__btn thm-btn">Join elegram <span><FontAwesomeIcon icon={faTelegram} /></span>
     </Link>
 
 

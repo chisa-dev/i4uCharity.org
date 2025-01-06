@@ -85,7 +85,7 @@ export default function Home() {
                             </div>
                             <div className="about-One__btn-and-need-help">
                                 <div className="about-One__btn-box">
-                                    <Link href="donation-details" className="about-One__btn thm-btn">Donate Now<span><i
+                                    <Link href="donate" className="about-One__btn thm-btn">Donate Now<span><i
                                                 className="icon-arrow-right"></i></span></Link>
                                 </div>
                                 <div className="about-One__need-help">
@@ -131,7 +131,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="found-one__content">
-                                <h4 className="found-one__title"><Link href="donation-details">Supporting Families</Link></h4>
+                                <h4 className="found-one__title"><Link href="donate">Supporting Families</Link></h4>
                                 <p className="found-one__text">Our family visits ministry is a reflection of Christ’s love and compassion in action. Every two weeks, we visit three single mothers, each raising three children under difficult financial circumstances.<br/><br/></p>
                                
                                 <div className="found-one__btn-box">
@@ -152,7 +152,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="found-one__content">
-                                <h4 className="found-one__title"><Link href="donation-details">Academics Program</Link></h4>
+                                <h4 className="found-one__title"><Link href="donate">Academics Program</Link></h4>
                                 <p className="found-one__text">We are passionate about the power of education to uplift and transform lives. Through our Academics Program, we aim to reflect Christ’s love by providing free tutoring for students at Kilinto Primary School who are unable to afford other tutoring services.  </p>
                                
                                 <div className="found-one__btn-box">
@@ -173,7 +173,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="found-one__content">
-                                <h4 className="found-one__title"><Link href="donation-details">Cloth Sharing</Link></h4>
+                                <h4 className="found-one__title"><Link href="donate">Cloth Sharing</Link></h4>
                                 <p className="found-one__text">We believe that the love of Christ is not just shown through words, but also through tangible acts of kindness. Our Cloth Sharing event, held annually at the end of the academic year, is a special time when we come together to serve those in need.</p>
                                
                                 <div className="found-one__btn-box">

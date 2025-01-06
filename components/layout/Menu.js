@@ -31,7 +31,7 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li>
-                    <Link href="donation-details">Donation</Link>
+                    <Link href="donate">Donation</Link>
                      
                 </li>
                

@@ -21,13 +21,13 @@ export default function Slogan() {
                         </p>
                     </div> */}
                     <div className="btn-box">
-                        <Link href="index4" className="thm-btn">
+                        <Link href="donate" className="thm-btn">
                             Donate Now
                             <span>
                                 <i className="icon-arrow-right"></i>
                             </span>
                         </Link>
-                        <Link href="index4" className="thm-btn">
+                        <Link href="about" className="thm-btn">
                             larn More
                             <span>
                                 <i className="icon-arrow-right"></i>

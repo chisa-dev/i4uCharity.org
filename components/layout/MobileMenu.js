@@ -24,7 +24,7 @@ const MobileMenu = ({ handleMobileMenu }) => {
                             <li><Link href="/family-visits">Family Visits Ministry</Link></li>
                             <li><Link href="/christmas-carnival">Christmas Carnival</Link></li>
                             <li><Link href="/cloth-sharing">Cloth Sharing</Link></li>
-                            <li><Link href="/donation-details">Donation</Link></li>
+                            <li><Link href="/donate">Donation</Link></li>
                             {/* <li><Link href="/stories">Stories</Link></li> */}
                             <li><Link href="/contact">Contact Us</Link></li>
                         </ul>

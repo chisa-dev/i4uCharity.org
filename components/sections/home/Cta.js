@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
-import { Swiper, SwiperSlide } from "swiper/react"
 
 
 const swiperOptions = {
@@ -67,7 +66,7 @@ export default function Cta() {
                         </h2>
                     </div>
                     <div className="cta-one__btn-box">
-                        <Link href="donation-details" className="cta-one__btn-1 thm-btn">Donate Now<span><i
+                        <Link href="donate" className="cta-one__btn-1 thm-btn">Donate Now<span><i
                                     className="icon-arrow-right"></i></span></Link>
                         <Link href="become-volunteer" className="cta-one__btn-2 thm-btn">Become A volunteer<span><i
                                     className="icon-arrow-right"></i></span></Link>

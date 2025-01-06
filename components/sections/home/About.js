@@ -46,7 +46,7 @@ export default function About() {
                                 )}
                             </div>
                             <div className="btn-box">
-                                <Link href="index4" className="thm-btn">
+                                <Link href="about" className="thm-btn">
                                     About More
                                     <span>
                                         <i className="icon-arrow-right"></i>

@@ -58,7 +58,7 @@ export default function Banner() {
                                         </p>
                                     </div>
                                     <div className="btn-box">
-                                        <Link href="index4" className="thm-btn">
+                                        <Link href="donate" className="thm-btn">
                                             Donate Now
                                             <span>
                                                 <i className="icon-arrow-right"></i>
@@ -93,7 +93,7 @@ export default function Banner() {
                                         </p>
                                     </div>
                                     <div className="btn-box">
-                                        <Link href="index4" className="thm-btn">
+                                        <Link href="donate" className="thm-btn">
                                             Donate Now
                                             <span>
                                                 <i className="icon-arrow-right"></i>

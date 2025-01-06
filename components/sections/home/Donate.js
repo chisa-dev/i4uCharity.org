@@ -14,7 +14,7 @@ export default function Donate() {
                         <h2 className="section-title__title title-animation">Popular Causes Now</h2>
                     </div>
                     <div className="donate-three__btn-box">
-                        <Link href="donation-details" className="donate-three__btn thm-btn">Discover more<span><i
+                        <Link href="donate" className="donate-three__btn thm-btn">Discover more<span><i
                                     className="icon-arrow-right"></i></span></Link>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function Donate() {
                                 </div>
                             </div>
                             <div className="donate-three__content">
-                                <h3 className="donate-three__title"><Link href="donation-details">Children Cancer Help
+                                <h3 className="donate-three__title"><Link href="donate">Children Cancer Help
                                         Fund</Link></h3>
                                 <p className="donate-three__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                                     voluptas sit asuraut</p>
@@ -63,7 +63,7 @@ export default function Donate() {
                                 </div>
                             </div>
                             <div className="donate-three__content">
-                                <h3 className="donate-three__title"><Link href="donation-details">Clean Water & Health
+                                <h3 className="donate-three__title"><Link href="donate">Clean Water & Health
                                         Food</Link></h3>
                                 <p className="donate-three__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                                     voluptas sit asuraut</p>
@@ -97,7 +97,7 @@ export default function Donate() {
                                 </div>
                             </div>
                             <div className="donate-three__content">
-                                <h3 className="donate-three__title"><Link href="donation-details">Medicine For
+                                <h3 className="donate-three__title"><Link href="donate">Medicine For
                                         Africans</Link></h3>
                                 <p className="donate-three__text">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                                     voluptas sit asuraut</p>

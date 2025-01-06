@@ -27,7 +27,7 @@ export default function Who() {
                             <p className="who-we-are__text">Make a meaningful impact by donating essential items for children and families in need. From clothing and school supplies to hygiene products and toys, your contribution provides the resources necessary for their growth, learning, and happiness. </p>
                             <br/>
                             <div className="who-we-are__btn-box">
-                                <Link href="donation-details" className="who-we-are__btn thm-btn">Donate Now<span><i
+                                <Link href="donate" className="who-we-are__btn thm-btn">Donate Now<span><i
                                             className="icon-arrow-right"></i></span></Link>
                             </div>
                         </div>
