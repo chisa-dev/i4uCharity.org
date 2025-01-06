@@ -40,7 +40,7 @@ export default function Banner() {
                     <div className="swiper-slide">
                         <div className="bg1"></div>
                         <div className="image-layer"
-                            style={{ backgroundImage: ' url(assets/images/slider/slider-v4-img-1.jpg)' }} >
+                            style={{ backgroundImage: ' url(assets/images/slider/photo_2025-01-04_11-58-34.jpg)' }} >
                         </div>
                         <div className="main-slider-four__inner">
                             <div className="main-slider-four__inner-bg"></div>

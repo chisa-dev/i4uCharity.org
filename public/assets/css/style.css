@@ -51,7 +51,7 @@
   
   --iforu-gray: #727272;
   --iforu-gray-rgb: 114, 114, 114;
-  --iforu-base: #88001b;
+  --iforu-base: #ff5528;
   --iforu-base-rgb: 255, 85, 40;
   --iforu-black: #343434;
   --iforu-black-rgb: 52, 52, 52;
@@ -1612,12 +1612,12 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: -ms-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -moz-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -o-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #88001b), color-stop(100, #ffa415));
-  background-image: -webkit-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: linear-gradient(to right, #88001b 0%, #ffa415 100%);
+  background-image: -ms-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -moz-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -o-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5528), color-stop(100, #ffa415));
+  background-image: -webkit-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: linear-gradient(to right, #ff5528 0%, #ffa415 100%);
 
   opacity: 1;
   transform: perspective(500px) rotatex(-20deg);
@@ -1686,12 +1686,12 @@ ul {
   margin-top: 10px;
   text-transform: uppercase;
   font-family: var(--iforu-font);
-  background-image: -ms-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -moz-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -o-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #88001b), color-stop(100, #ffa415));
-  background-image: -webkit-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: linear-gradient(to right, #88001b 0%, #ffa415 100%);
+  background-image: -ms-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -moz-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -o-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5528), color-stop(100, #ffa415));
+  background-image: -webkit-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: linear-gradient(to right, #ff5528 0%, #ffa415 100%);
 }
 
 .mobile-nav__wrapper .home-showcase .row [class*=col-] {
@@ -3011,12 +3011,12 @@ ul {
   left: 0;
   right: 0;
   height: 5px;
-  background-image: -ms-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -moz-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -o-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #88001b), color-stop(100, #ffa415));
-  background-image: -webkit-linear-gradient(left, #88001b 0%, #ffa415 100%);
-  background-image: linear-gradient(to right, #88001b 0%, #ffa415 100%);
+  background-image: -ms-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -moz-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -o-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5528), color-stop(100, #ffa415));
+  background-image: -webkit-linear-gradient(left, #ff5528 0%, #ffa415 100%);
+  background-image: linear-gradient(to right, #ff5528 0%, #ffa415 100%);
   z-index: -1;
 
   -webkit-transition: all 300ms ease;
