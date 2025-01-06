@@ -57,10 +57,10 @@ export default function Home() {
                                                             <br/>
                                                             <p className="donation-details__input-box-title">Or Directly Donate to our Account</p>
                                                             <div className="donation-details__input-field" style={{ position: 'relative', color: '#000' }}>
-                                                                <input type="text" value="1000194434085" readOnly style={{ color: '#000' }}/>
+                                                                <input type="text" value="1000197471178" readOnly style={{ color: '#000' }}/>
                                                                 <button 
                                                                     type="button" 
-                                                                    onClick={() => navigator.clipboard.writeText('1000194434085')} 
+                                                                    onClick={() => navigator.clipboard.writeText('1000197471178')} 
                                                                     style={{
                                                                         position: 'absolute', 
                                                                         right: '10px', 
