@@ -24,9 +24,9 @@ export default function Header({ scroll, handlePopup, handleMobileMenu  }) {
                             </div>
                             <div className="main-menu-three__right">
                                
-                                <div className="main-menu-three__search-box">
+                                {/* <div className="main-menu-three__search-box">
                                     <Link href="#" className="main-menu-three__search search-toggler icon-instagram" onClick={handlePopup}></Link>
-                                </div>
+                                </div> */}
                                 <div className="main-menu-three__btn-box">
                                 <Link href="https://t.me/i4uteam" className="main-menu-three__btn thm-btn">
       Join Telegram <span><FontAwesomeIcon icon={faTelegram} size="lg" /></span>

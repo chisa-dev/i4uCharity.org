@@ -31,11 +31,14 @@ const MobileMenu = ({ handleMobileMenu }) => {
                     </div>
 
                     <ul className="mobile-nav__contact list-unstyled">
-                        <li><i className="fa fa-envelope"></i>
+                        {/* <li><i className="fa fa-envelope"></i>
                             <Link href="mailto:needhelp@elitecons.com">needhelp@elitecons.com</Link>
+                        </li> */}
+                        <li><i className="fa fa-phone-alt"></i>
+                            <Link href="tel:+251961099526">+251 961099526</Link>
                         </li>
                         <li><i className="fa fa-phone-alt"></i>
-                            <Link href="tel:666-888-0000">666 888 0000</Link>
+                            <Link href="tel:+251994265687">+251 994265687</Link>
                         </li>
                     </ul>
 

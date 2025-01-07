@@ -56,6 +56,8 @@ export default function Home() {
                                                         <div className="donation-details__input-box" style={{ marginTop: '20px' }}>
                                                             <br/>
                                                             <p className="donation-details__input-box-title">Or Directly Donate to our Account</p>
+                                                            <p className="donation-details__input-box-title">Acc. Name: Samuel Moges Ababu</p>
+
                                                             <div className="donation-details__input-field" style={{ position: 'relative', color: '#000' }}>
                                                                 <input type="text" value="1000197471178" readOnly style={{ color: '#000' }}/>
                                                                 <button 

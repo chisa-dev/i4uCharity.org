@@ -39,8 +39,8 @@ export default function Footer() {
                                 <div className="footer-widget-two__links">
                                     <h4 className="footer-widget-two__title">Useful Links</h4>
                                     <ul className="footer-widget-two__services-list list-unstyled">
-                                        <li><Link href="https://t.me/i4uteam">AASTU Fellowship</Link></li>
-                                        <li><Link href="https://t.me/aastuecsf">I4U Telegram</Link></li>
+                                        <li><Link href="https://t.me/aastuecsf">AASTU Fellowship</Link></li>
+                                        <li><Link href="https://t.me/i4uteam">I4U Telegram</Link></li>
                                         <li><Link href="https://www.evasue.net/">EvaSUE Website</Link></li>
                                     </ul>
                                 </div>
