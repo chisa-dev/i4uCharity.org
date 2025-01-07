@@ -38,6 +38,8 @@ export default function RootLayout({ children }) {
 
                 {/* Favicon and Canonical URL */}
                 <link rel="icon" href="/favicon.ico?v=2" />
+                <link rel="icon" href="/icon.ico?v=2" />
+
                 <link rel="canonical" href="https://i4ucharity.org" />
 
                 {/* Preload Styles */}
