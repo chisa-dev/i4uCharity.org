@@ -20,9 +20,6 @@ export default function About() {
                                 </div>
                                 <h2 className="section-title__title title-animation">Caring Hearts,<br/> Sharing Hands</h2>
                             </div>
-                            <div className="text">
-                                <p>Helped fund 24,537 Projects in 24 Countries, Benefiting over 8.2 Million people.</p>
-                            </div>
                             <div className="about-four-img" style={{ position: 'relative' }}>
                                 <video
                                     src="assets/images/i4u_video.mp4"
